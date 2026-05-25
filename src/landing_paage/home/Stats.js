@@ -31,8 +31,8 @@ function Stats() {
                     <img src='media/images/ecosystem.png' alt='stats' style={{width:"90%"}}/>
                     <div className='text-center '>
 
-                        <a href=' ' style={{textDecoration: 'none'}}> Explore our products <i class="fa-solid fa-right-long"></i></a>
-                        <a href=' 'style={{textDecoration: 'none'}}> Try kite <i class="fa-solid fa-right-long"></i></a>
+                        <a href="/"  style={{textDecoration: 'none'}}> Explore our products <i class="fa-solid fa-right-long"></i></a>
+                        <a href="/" style={{textDecoration: 'none'}}> Try kite <i class="fa-solid fa-right-long"></i></a>
                         
                     </div>
                 </div>

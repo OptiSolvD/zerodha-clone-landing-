@@ -12,7 +12,7 @@ function Team() {
       >
         <div className="col-6 p-3 text-center">
           <img
-            src="media/images/anish.jpeg"
+            src="media/images/anish.jpeg" alt="anish"
             style={{ borderRadius: "100%", width: "50%", height: "40%" }}
           />
           <h4 className="mt-5">Anish Raj</h4>
@@ -45,7 +45,7 @@ function Team() {
 </p>
           
           <p>
-            Connect on <a href=""><i class="fa-solid fa-user"></i></a> / <a href="https://www.linkedin.com/in/anish-raj-94a30b370?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i class="fa-brands fa-square-linkedin"></i></a> /{" "}
+            Connect on <a href="/"><i class="fa-solid fa-user"></i></a> / <a href="https://www.linkedin.com/in/anish-raj-94a30b370?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i class="fa-brands fa-square-linkedin"></i></a> /{" "}
             <a href="https://github.com/imVynor"><i class="fa-brands fa-square-github"></i></a>/{" "}
             <a href="https://www.instagram.com/_.anish.raj/"><i class="fa-brands fa-square-instagram"></i></a>
           </p>
@@ -82,17 +82,17 @@ function Team() {
 </p>
           
           <p>
-            Connect on <a href=""><i class="fa-solid fa-user"></i></a> / <a href=""><i class="fa-brands fa-square-linkedin"></i></a> /{" "}
+            Connect on <a href="/"><i class="fa-solid fa-user"></i></a> / <a href="/"><i class="fa-brands fa-square-linkedin"></i></a> /{" "}
             <a href="https://github.com/OptiSolvD/"><i class="fa-brands fa-square-github"></i></a> /{" "}
             <a href="https://www.instagram.com/raj720674/"><i class="fa-brands fa-square-instagram"></i></a>
           </p>
         </div>
          <div className="col-6 p-3 text-center">
           <img
-            src="media/images/raj.jpeg"
+            src="media/images/raj.jpeg" alt="raj"
             style={{ borderRadius: "100%", width: "50%", height: "60%" }}
           />
-          <h4 className="mt-5">Anish Raj</h4>
+          <h4 className="mt-5">Raj </h4>
           <h6>Developer & Entrepreneur</h6>
         </div>
       </div>

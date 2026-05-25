@@ -5,7 +5,7 @@ function Footer() {
       <div className="container border-top mt-5">
         <div className="row mt-5">
           <div className="col">
-            <img src="media/images/logo.svg" style={{ width: "50%" }} />
+            <img src="media/images/logo.svg" alt="logo " style={{ width: "50%" }} />
             <p>
               &copy; 2010 - 2024, Not Zerodha Broking Ltd. All rights reserved.
             </p>
@@ -13,21 +13,21 @@ function Footer() {
           <div className="col">
             <p>Company</p>
             
-                <a href=""  className='text-muted' style={{textDecoration:"none"}}>About</a>
+                <a href="/"  className='text-muted' style={{textDecoration:"none"}}>About</a>
             <br />
-            <a href="" className='text-muted'style={{textDecoration:"none"}}>Products</a>
+            <a href="/" className='text-muted'style={{textDecoration:"none"}}>Products</a>
             <br />
-            <a href="" className='text-muted'style={{textDecoration:"none"}}>Pricing</a>
+            <a href="/" className='text-muted'style={{textDecoration:"none"}}>Pricing</a>
             <br />
-            <a href=""className='text-muted' style={{textDecoration:"none"}}   >Referral programme</a>
+            <a href="/"className='text-muted' style={{textDecoration:"none"}}   >Referral programme</a>
             <br />
-            <a href=""className='text-muted' style={{textDecoration:"none"}}>Careers</a>
+            <a href="/"className='text-muted' style={{textDecoration:"none"}}>Careers</a>
             <br />
-            <a href=""className='text-muted' style={{textDecoration:"none"}}>Zerodha.tech</a>
+            <a href="/"className='text-muted' style={{textDecoration:"none"}}>Zerodha.tech</a>
             <br />
-            <a href="" className='text-muted' style={{textDecoration:"none"}}>Press & media</a>
+            <a href="/" className='text-muted' style={{textDecoration:"none"}}>Press & media</a>
             <br />
-            <a href="" className='text-muted' style={{textDecoration:"none"}}>Zerodha cares  (CSR)</a>
+            <a href="/" className='text-muted' style={{textDecoration:"none"}}>Zerodha cares  (CSR)</a>
             <br />
 
       
@@ -35,24 +35,24 @@ function Footer() {
           </div>
           <div className="col">
             <p>Support</p>
-            <a href="" className='text-muted'style={{textDecoration:"none"}}>Contact</a>
+            <a href="/" className='text-muted'style={{textDecoration:"none"}}>Contact</a>
             <br />
-            <a href="" className='text-muted' style={{textDecoration:"none"}}>Support portal</a>
+            <a href="/" className='text-muted' style={{textDecoration:"none"}}>Support portal</a>
             <br />
-            <a href="" className='text-muted' style={{textDecoration:"none"}}>Z-Connect blog</a>
+            <a href="/" className='text-muted' style={{textDecoration:"none"}}>Z-Connect blog</a>
             <br />
-            <a href="" className='text-muted' style={{textDecoration:"none"}}>List of charges</a>
+            <a href="/" className='text-muted' style={{textDecoration:"none"}}>List of charges</a>
             <br />
-            <a href="" className='text-muted' style={{textDecoration:"none"}}>Downloads & resources</a>
+            <a href="/" className='text-muted' style={{textDecoration:"none"}}>Downloads & resources</a>
             <br />
           </div>
           <div className="col">
             <p>Account</p>
-            <a href="" className='text-muted' style={{textDecoration:"none"}}>Open an account</a>
+            <a href="/" className='text-muted' style={{textDecoration:"none"}}>Open an account</a>
             <br />
-            <a href="" className='text-muted' style={{textDecoration:"none"}}>Fund transfer</a>
+            <a href="/" className='text-muted' style={{textDecoration:"none"}}>Fund transfer</a>
             <br />
-            <a href="" className='text-muted' style={{textDecoration:"none"}}>60 day challenge</a>
+            <a href="/" className='text-muted' style={{textDecoration:"none"}}>60 day challenge</a>
             <br />
           </div>
         </div>
