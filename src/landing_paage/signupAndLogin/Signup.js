@@ -65,7 +65,7 @@ export default function Authentication() {
 
         setError("");
 
-        window.location.assign("zerodha-clone-dashboard-gilt.vercel.app");
+        window.location.assign("https://zerodha-clone-dashboard-gilt.vercel.app");
 
       }
 
