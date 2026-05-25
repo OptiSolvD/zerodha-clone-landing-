@@ -48,7 +48,7 @@ export default function Authentication() {
 
         const { data } = await axios.post(
 
-          "http://localhost:5000/login",
+          "https://zerodha-clone-server-r4uq.onrender.com/login",
 
           {
             username,
@@ -68,7 +68,7 @@ export default function Authentication() {
         setError("");
 
         window.location.href =
-          "http://localhost:3001/";
+          "/";
 
       }
 
@@ -78,7 +78,7 @@ export default function Authentication() {
 
         const { data } = await axios.post(
 
-          "http://localhost:5000/register",
+          "https://zerodha-clone-server-r4uq.onrender.com/register",
 
           {
             username,
