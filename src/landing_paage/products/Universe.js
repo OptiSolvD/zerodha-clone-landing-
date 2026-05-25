@@ -10,7 +10,7 @@ function Universe() {
         </p>
 
         <div className="col-4 p-3 mt-5">
-          <img src="media/images/zerodhaFundhouse.png" style={{width:'70%'}}/>
+          <img src="media/images/zerodhaFundhouse.png" alt="Zerodha Fund House" style={{width:'70%'}}/>
            <p className="text-small text-muted">
 
     Our asset management venture
@@ -25,25 +25,25 @@ function Universe() {
 
   </p>        </div>
         <div className="col-4 p-3 mt-5">
-          <img src="media/images/sensibullLogo.svg"  style={{width:'70%'}}/>
+          <img src="media/images/sensibullLogo.svg" alt="Sensibull logo" style={{width:'70%'}}/>
           <p className="text-small mt-2 text-muted">Options trading platform that lets you <br/>create strategies, analyze positions, and examine <br/>data points like open interest, FII/DII, and more.</p>
         </div>
         <div className="col-4 p-3 mt-5">
-          <img src="media/images/tijori.svg" style={{width:'70%'}} />
+          <img src="media/images/tijori.svg" alt="Tijori logo" style={{width:'70%'}} />
          <p className="text-small text-muted">Investment research platform <br/>that offers detailed insights on stocks, <br/>sectors, supply chains, and more.</p>
         </div>
         <div className="col-4 p-3 mt-5">
-          <img src="media/images/streakLogo.png" style={{width:'70%'}} />
+          <img src="media/images/streakLogo.png" alt="Streak logo" style={{width:'70%'}} />
         <p className="text-small text-muted">Systematic trading platform <br/>that allows you to create and backtest <br/>strategies without coding.</p>
 
         </div>
         <div className="col-4 p-3 mt-5">
-          <img src="media/images/smallcaseLogo.png" />
+          <img src="media/images/smallcaseLogo.png" alt="smallcase logo" />
         <p className="text-small mt-2 text-muted">Thematic investing platform <br/>that helps you invest in diversified <br/>baskets of stocks on ETFs.</p>
 
         </div>
         <div className="col-4 p-3 mt-5">
-          <img src="media/images/dittoLogo.png" style={{width:'70%'}} />
+          <img src="media/images/dittoLogo.png" alt="Ditto logo" style={{width:'70%'}} />
          <p className="text-small tm-2 text-muted">Personalized advice on life <br/>and health insurance. No spam <br/>and no mis-selling.</p>
         </div>
         <button
