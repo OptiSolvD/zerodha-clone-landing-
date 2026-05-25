@@ -11,18 +11,18 @@ function Pricing() {
           </p>
           <a href=' ' style={{ textDecoration: "none" }}>
             See Pricing{" "}
-            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
           </a>
         </div>
                <div className='col-2'></div>
                <div className='col-6 '>
                    <div className='row text-ceter'>
                     <div className='col border'>
-                        <h1 className='mb-3'><i class="fa-solid fa-indian-rupee-sign"></i>0</h1>
+                        <h1 className='mb-3'><i className="fa-solid fa-indian-rupee-sign"></i>0</h1>
                         <p> Free equity delivery and <br/>direct mutual funds</p>
                     </div>
                     <div className='col border'>
-                        <h1 className='mb-3'><i class="fa-solid fa-indian-rupee-sign"></i>0</h1>
+                        <h1 className='mb-3'><i className="fa-solid fa-indian-rupee-sign"></i>0</h1>
                         <p> Intraday and F&O</p>
                     </div>
 

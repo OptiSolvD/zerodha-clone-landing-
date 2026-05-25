@@ -18,7 +18,7 @@ function LeftSection({
           <h1>{productName}</h1>
           <p>{productDesription}</p>
           <div>
-            <a href={tryDemo}>Try Demo <i class="fa-solid fa-right-long"></i></a>
+            <a href={tryDemo}>Try Demo <i className="fa-solid fa-right-long"></i></a>
             <a href={learnMore} style={{ marginLeft: "50px" }}>
               Learn More <i class="fa-solid fa-right-long"></i>
             </a>
