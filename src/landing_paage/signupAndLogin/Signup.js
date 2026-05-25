@@ -33,7 +33,7 @@ export default function Authentication() {
     React.useState("");
 
   const [formState, setFormState] =
-    React.useState(0);
+    React.useState(1);
 
   const [open, setOpen] =
     React.useState(false);
@@ -124,301 +124,271 @@ export default function Authentication() {
 
     <ThemeProvider theme={defaultTheme}>
 
-      <Grid
-        container
-        component="main"
+<Box
+
+  sx={{
+
+    display: "flex",
+
+    height: "100vh",
+
+    padding: "30px",
+
+    gap: "30px",
+
+    backgroundColor: "#f5f5f5",
+
+  }}
+
+>
+  {/* LEFT IMAGE SECTION */}
+
+ <Box
+
+  sx={{
+
+    width: "80%",
+
+    backgroundImage:
+      'url("/media/images/dashboard.jpeg")',
+
+    backgroundSize: "contain",
+
+    backgroundPosition: "center",
+
+    backgroundRepeat: "no-repeat",
+
+    backgroundColor: "#f5f5f5",
+
+  }}
+
+ />
+
+  {/* RIGHT FORM SECTION */}
+
+  <Paper
+
+    elevation={6}
+
+    square
+
+    sx={{
+
+      width: "420px",
+
+      display: "flex",
+
+      justifyContent: "center",
+
+      alignItems: "center",
+
+    }}
+
+  >
+
+    <Box
+
+      sx={{
+
+        width: "80%",
+
+        display: "flex",
+
+        flexDirection: "column",
+
+        alignItems: "center",
+
+      }}
+
+    >
+
+      <Avatar
+
         sx={{
-          height: "100vh",
+
+          m: 1,
+
+          bgcolor: "secondary.main",
+
         }}
+
       >
 
-        <CssBaseline />
+        <LockOutlinedIcon />
 
-        {/* LEFT IMAGE SECTION */}
+      </Avatar>
 
-        <Grid
+      {/* LOGIN / REGISTER BUTTONS */}
 
-          item
+      <div>
 
-        //   xs={false}
+        <Button
 
-          sm={4}
+          variant={
+            formState === 0
+              ? "contained"
+              : "text"
+          }
 
-          md={7}
+          onClick={() => {
 
-          sx={{
-
-            backgroundImage:
-              'url("frontend/public/images/dashboard.jpeg")',
-
-            backgroundRepeat: "no-repeat",
-
-            backgroundSize: "cover",
-
-            backgroundPosition: "center",
-
-            minHeight: "100vh",
+            setFormState(0);
 
           }}
 
-        />
+        >
 
-        {/* RIGHT FORM SECTION */}
+          SIGN IN
 
-        <Grid
+        </Button>
 
-          item
+        <Button
 
-          xs={12}
+          variant={
+            formState === 1
+              ? "contained"
+              : "text"
+          }
 
-          sm={8}
+          onClick={() => {
 
-          md={5}
+            setFormState(1);
 
-          component={Paper}
-
-          elevation={6}
-
-          square
+          }}
 
         >
 
-          <Box
+          SIGN UP
 
-            sx={{
+        </Button>
 
-              my: 8,
+      </div>
 
-              mx: 4,
+      {/* FORM */}
 
-              display: "flex",
+      <Box
 
-              flexDirection: "column",
+        component="form"
 
-              alignItems: "center",
+        noValidate
 
-            }}
+        sx={{ mt: 1, width: "100%" }}
 
-          >
+      >
 
-            <Avatar
+        <TextField
 
-              sx={{
+          margin="normal"
 
-                m: 1,
+          required
 
-                bgcolor: "secondary.main",
+          fullWidth
 
-              }}
+          label="Username"
 
-            >
+          value={username}
 
-              <LockOutlinedIcon />
+          onChange={(e) =>
 
-            </Avatar>
+            setUsername(e.target.value)
 
-            {/* LOGIN / REGISTER BUTTONS */}
+          }
 
-            <div>
+        />
 
-              <Button
+        {
 
-                variant={
-                  formState === 0
-                    ? "contained"
-                    : "text"
-                }
+          formState === 1 && (
 
-                onClick={() => {
+            <TextField
 
-                  setFormState(0);
+              margin="normal"
 
-                }}
+              required
 
-              >
+              fullWidth
 
-                SIGN IN
+              label="Email"
 
-              </Button>
+              value={email}
 
-              <Button
+              onChange={(e) =>
 
-                variant={
-                  formState === 1
-                    ? "contained"
-                    : "text"
-                }
-
-                onClick={() => {
-
-                  setFormState(1);
-
-                }}
-
-              >
-
-                SIGN UP
-
-              </Button>
-
-            </div>
-
-            {/* FORM */}
-
-            <Box
-
-              component="form"
-
-              noValidate
-
-              sx={{ mt: 1 }}
-
-            >
-
-              <TextField
-
-                margin="normal"
-
-                required
-
-                fullWidth
-
-                id="username"
-
-                label="Username"
-
-                name="username"
-
-                value={username}
-
-                autoFocus
-
-                onChange={(e) =>
-
-                  setUsername(
-                    e.target.value
-                  )
-
-                }
-
-              />
-
-              {
-
-                formState === 1
-
-                ?
-
-                (
-
-                  <TextField
-
-                    margin="normal"
-
-                    required
-
-                    fullWidth
-
-                    id="email"
-
-                    label="Email"
-
-                    name="email"
-
-                    value={email}
-
-                    onChange={(e) =>
-
-                      setEmail(
-                        e.target.value
-                      )
-
-                    }
-
-                  />
-
-                )
-
-                :
-
-                null
+                setEmail(e.target.value)
 
               }
 
-              <TextField
+            />
 
-                margin="normal"
+          )
 
-                required
+        }
 
-                fullWidth
+        <TextField
 
-                name="password"
+          margin="normal"
 
-                label="Password"
+          required
 
-                type="password"
+          fullWidth
 
-                value={password}
+          label="Password"
 
-                id="password"
+          type="password"
 
-                onChange={(e) =>
+          value={password}
 
-                  setPassword(
-                    e.target.value
-                  )
+          onChange={(e) =>
 
-                }
+            setPassword(e.target.value)
 
-              />
+          }
 
-              <p style={{ color: "red" }}>
+        />
 
-                {error}
+        <p style={{ color: "red" }}>
 
-              </p>
+          {error}
 
-              <Button
+        </p>
 
-                type="button"
+        <Button
 
-                fullWidth
+          fullWidth
 
-                variant="contained"
+          variant="contained"
 
-                sx={{
-                  mt: 3,
-                  mb: 2,
-                }}
+          sx={{
 
-                onClick={handleAuth}
+            mt: 3,
 
-              >
+            mb: 2,
 
-                {
+          }}
 
-                  formState === 0
+          onClick={handleAuth}
 
-                  ?
+        >
 
-                  "LOGIN"
+          {
 
-                  :
+            formState === 0
 
-                  "REGISTER"
+              ? "LOGIN"
 
-                }
+              : "REGISTER"
 
-              </Button>
+          }
 
-            </Box>
+        </Button>
 
-          </Box>
+      </Box>
 
-        </Grid>
+    </Box>
 
-      </Grid>
+  </Paper>
+
+</Box>
 
       <Snackbar
 

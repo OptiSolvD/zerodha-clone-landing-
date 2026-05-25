@@ -17,7 +17,7 @@ function Navbar() {
         <ul class="navbar-nav mb-lg-0">
               <li class="nav-item">
                 <Link class="nav-link active"  to="/signup">
-                  Signup
+                  Signup/Signin
                 </Link>
               </li>
               <li class="nav-item">
