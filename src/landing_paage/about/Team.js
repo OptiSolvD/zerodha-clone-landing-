@@ -89,7 +89,7 @@ function Team() {
         </div>
          <div className="col-6 p-3 text-center">
           <img
-            src="https://res.cloudinary.com/dcnyqxvaw/image/upload/v1775576359/o7bsphiijsya6kpkcub5.jpghttps://res.cloudinary.com/dcnyqxvaw/image/upload/v1775576359/o7bsphiijsya6kpkcub5.jpg" alt="raj"
+            src="https://res.cloudinary.com/dcnyqxvaw/image/upload/v1775576359/o7bsphiijsya6kpkcub5.jpg" alt="raj"
             style={{ borderRadius: "100%", width: "50%", height: "60%" }}
           />
           <h4 className="mt-5">Raj </h4>
