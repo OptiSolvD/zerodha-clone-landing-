@@ -15,7 +15,7 @@ function Team() {
             src="media/images/anish.jpeg" alt="anish"
             style={{ borderRadius: "100%", width: "50%", height: "40%" }}
           />
-          <h4 className="mt-5">Anish Raj</h4>
+          <h4 className="mt-5">Anish </h4>
           <h6>Developer & Entrepreneur</h6>
         </div>
         <div className="col-6 p-3">
@@ -89,7 +89,7 @@ function Team() {
         </div>
          <div className="col-6 p-3 text-center">
           <img
-            src="media/images/raj.jpeg" alt="raj"
+            src="https://res.cloudinary.com/dcnyqxvaw/image/upload/v1775576359/o7bsphiijsya6kpkcub5.jpghttps://res.cloudinary.com/dcnyqxvaw/image/upload/v1775576359/o7bsphiijsya6kpkcub5.jpg" alt="raj"
             style={{ borderRadius: "100%", width: "50%", height: "60%" }}
           />
           <h4 className="mt-5">Raj </h4>
