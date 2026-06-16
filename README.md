@@ -4,7 +4,7 @@ A modern landing page inspired by Zerodha, built using React. This repository co
 
 ## Live Demo
 
-🔗 zerodha-clone-landing-c3vz.vercel.app
+🔗 https://zerodha-clone-landing-c3vz.vercel.app/
 
 ## Features
 
