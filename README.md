@@ -40,7 +40,7 @@ A modern landing page inspired by Zerodha, built using React. This repository co
 ## Installation
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/OptiSolvD/zerodha-clone-landing-.git
 cd project-folder
 npm install
 npm start
