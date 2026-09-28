@@ -1,11 +1,10 @@
-name: Node.js CI
+name: Deploy Landing
 
 on:
   push:
     branches: ["main"]
 
 jobs:
-
   build:
     runs-on: ubuntu-latest
 
@@ -25,13 +24,16 @@ jobs:
       - name: Build frontend
         run: npm run build
 
-      # upload build artifact
+      - name: Check build
+        run: |
+          echo "Build created:"
+          ls -la build
+
       - name: Upload build
         uses: actions/upload-artifact@v4
         with:
           name: landing-build
           path: build/
-
 
   deploy:
     needs: build
@@ -44,7 +46,12 @@ jobs:
           name: landing-build
           path: build
 
-      - name: Deploy
+      - name: Check downloaded build
+        run: |
+          echo "Downloaded build:"
+          ls -la build
+
+      - name: Deploy to Nginx
         run: |
           sudo rm -rf /var/www/landing/*
           sudo cp -r build/* /var/www/landing/
