@@ -16,6 +16,7 @@ import SupportPage from "./landing_paage/support/SupportPage";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 //new commit for testing the build files after the commit this msg 
 // second msg for the new commit testing the build file on  the ec2 instance 
+// third time checking after clearing the space in the ec2 workspace 
 root.render(
    <BrowserRouter basename={process.env.PUBLIC_URL || ""}>
    <Navbar />
