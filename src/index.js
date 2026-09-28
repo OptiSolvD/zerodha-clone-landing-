@@ -14,6 +14,7 @@ import PricingPage from "./landing_paage/pricing/PricingPage";
 import SupportPage from "./landing_paage/support/SupportPage";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+//new commit for testing the build files after the commit this msg 
 root.render(
    <BrowserRouter basename={process.env.PUBLIC_URL || ""}>
    <Navbar />
