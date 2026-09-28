@@ -1,5 +1,4 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 function Navbar() {
     return (  
         <div className="container">
@@ -22,7 +21,7 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <Link className="nav-link active"  to="/about">
-                  About
+                  Know us
                 </Link>
               </li>
               <li className="nav-item">
