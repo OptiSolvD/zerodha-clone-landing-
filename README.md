@@ -7,7 +7,7 @@ A modern landing page inspired by Zerodha, built using React. This repository co
 | Deployment | Link |
 |---|---|
 | **Vercel** | https://zerodha-clone-landing-c3vz.vercel.app/ |
-| **AWS EC2 (public DNS, HTTP)** | `http://<YOUR-EC2-PUBLIC-DNS>` |
+| **AWS EC2 (public DNS, HTTP)** | `http://ec2-13-60-236-98.eu-north-1.compute.amazonaws.com/` |
 
 ## ✨ Features
 
